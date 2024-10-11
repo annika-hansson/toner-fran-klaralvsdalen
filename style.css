@@ -1,0 +1,136 @@
+body {
+font-family : 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+margin-left : 50px ;
+margin-right : 4.5cm ;
+line-height : 20px
+}
+  
+.header {
+background-color: #fabc20;
+color: white;
+text-align: center;
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+  
+h1 {
+font-size: 1.8vw;
+font-family :'Palatino LT STD' ; 
+background-color: #fabc20 ;
+color : #000000 ;
+padding : 50px 50px ; 
+text-align: center;
+line-height: 1.55
+}
+  
+h2 { 
+	font-size: 1.5vw;
+	font-family: 'Palatino Linotype';
+	text-align: left;
+	line-height: 1.55 ;
+	font-variant: small-caps
+}
+
+h3 { 
+font-family : Arial, sans-serif ; 
+font-weight: 600
+}
+
+nav {
+
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    padding: 1vw;
+    text-align: center
+}
+
+a:hover {
+	color: #c38d9e;
+}
+
+div {
+}
+
+p {
+margin-bottom: 0 ;
+margin-top: 0 ;
+  padding-left: 80px;
+}
+
+
+blockquote {
+margin-bottom: 0 ;
+margin-top: 0 ;
+  padding-left: 40px;
+font-family: 'Book Antiqua' ; 
+ font-style: italic;
+  font-size:9pt
+}
+
+p.smaller {
+margin-bottom: 0 ;
+margin-top: 0 ;
+  padding-left: 40px;
+}
+
+p.signature {
+margin-bottom: 0 ;
+margin-top: 0 ;
+  padding-left: 180px;
+  font-style: italic
+}
+div.margin {
+color : black ;
+width : 500px ; 
+text-align: left;
+margin-left: 30px
+
+}
+
+div.comment {
+text-align: left;
+}
+
+
+
+bdi.indent
+{
+text-indent: 60px;
+}
+
+div.amount {
+font-weight : bold
+}
+
+div.poem {
+font-size: 10pt;
+color : black ;
+width : 500px ; 
+padding : 20px ;
+line-height : 18px
+
+}
+
+div.col-sm{
+color : black ;
+width : 500px ; 
+text-align: left;
+padding : 20px ;
+}
+
+div#footer #student {
+font-style : oblique ;
+background-color : gray ;
+padding : 10px
+}
+
+div#footer #date {
+font-style : oblique ;
+background-color : silver ;
+padding : 10px
+}
